@@ -8,7 +8,7 @@ CREATE TABLE tb_colaboradores(
     cpf VARCHAR(255) NOT NULL,
     data_nascimento DATE NOT NULL,
     funcao VARCHAR(255) NOT NULL,
-    salario DECIMAL NOT NULL,
+    salario DECIMAL (6,2) NOT NULL,
     PRIMARY KEY (id)
     );
     

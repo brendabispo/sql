@@ -7,7 +7,7 @@ CREATE TABLE tb_produtos(
     nome VARCHAR(255) NOT NULL,
     cor VARCHAR(255) NOT NULL,
     categoria VARCHAR(255) NOT NULL,
-    preco DECIMAL NOT NULL,
+    preco DECIMAL (6,2) NOT NULL,
     peso DECIMAL NOT NULL,
     PRIMARY KEY (id)
     );
